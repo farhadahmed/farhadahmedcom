@@ -1,0 +1,23 @@
+{
+  "name": "farhadahmedcom",
+  "version": "1.0.0",
+  "description": "This is the repository for my personal site.",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farhadahmed/farhadahmedcom.git"
+  },
+  "author": "Farhad Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farhadahmed/farhadahmedcom/issues"
+  },
+  "homepage": "https://github.com/farhadahmed/farhadahmedcom",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
