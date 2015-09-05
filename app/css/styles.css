@@ -1,3 +1,11 @@
+body {
+  background-color: #C6E2FF;
+}
+
+nav {
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -6,6 +14,27 @@ ul {
 
 li {
   display: inline;
+  border: 0.2em solid black;
+  border-radius: 15%;
+  padding: 0.5em;
 }
 
+a {
+  text-decoration: none;
+  color: blue;
+}
 
+a:hover {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+span {
+  font-family: cursive, Arial;
+  background-color: yellow;
+}
+
+img {
+
+  width: 10%;
+}
