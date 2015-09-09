@@ -1,0 +1,95 @@
+body {
+  background-image: url('http://data.hdwallpapers.im/coding_source_code_hd.jpg');
+}
+
+header {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  position: absolute;
+  padding: 1%
+
+}
+
+/* PROFILE PICTURE */
+
+#profile-pic-sect {
+  display: inline;
+}
+#profile-pic {
+  width: 20%;
+}
+
+/* HEADER */
+
+#header-wrapper {
+  text-align: center;
+  display: inline-block;
+}
+
+h1 {
+  margin-left: 25%;
+  font-size: 400%;
+  white-space: nowrap;
+}
+h2 {
+  margin-left: 50%;
+  margin-right: 50%;
+  white-space: nowrap;
+}
+nav {
+  margin-left: 40%;
+  white-space: nowrap;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+
+  border: 0.2em solid black;
+  border-radius: 15%;
+  padding: 0.5em;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+
+
+/* LINKEDIN & GITHUB PICS */
+
+#contact-pics {
+  display: inline;
+  float: right;
+  margin-top: -15%;
+  width: 50%
+
+}
+#contact-pics img {
+  display: inline-block;
+}
+#linkedin-pic {
+  width: 30%;
+  float: right;
+}
+#github-pic {
+  width: 30%;
+  float: right;
+}
+
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
