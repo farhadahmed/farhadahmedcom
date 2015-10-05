@@ -42,13 +42,13 @@ nav {
   white-space: nowrap;
 }
 
-ul {
+#nav-items {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li {
+.page-links {
 
   border: 0.2em solid black;
   border-radius: 15%;
@@ -106,4 +106,12 @@ article {
 
 article p {
   font-size: large;
+}
+
+#commendation-p {
+  text-align: center;
+}
+
+#commendation-pic {
+  width: 80%;
 }
