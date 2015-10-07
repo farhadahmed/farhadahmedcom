@@ -6,8 +6,8 @@ header {
   margin-left: 10%;
   margin-right: 10%;
   background-color: white;
-  position: absolute;
-  padding: 1%
+  padding: 1%;
+  display: block;
 
 }
 
@@ -42,13 +42,13 @@ nav {
   white-space: nowrap;
 }
 
-ul {
+#nav-items {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li {
+.page-links {
 
   border: 0.2em solid black;
   border-radius: 15%;
@@ -90,6 +90,28 @@ a:hover {
 
 
 main {
+  clear: both;
   margin-left: 10%;
   margin-right: 10%;
+  display: block;
+}
+
+article {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  padding: 2%;
+  margin: 1%;
+}
+
+article p {
+  font-size: large;
+}
+
+#commendation-p {
+  text-align: center;
+}
+
+#commendation-pic {
+  width: 80%;
 }
