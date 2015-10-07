@@ -108,6 +108,19 @@ article p {
   font-size: large;
 }
 
+
+#projects-main {
+  text-align: center;
+  padding: 10%;
+}
+
+.projects-section {
+  width: 15%;
+  display: inline-block;
+  background-color: #FF0000;
+  text-align: center;
+}
+
 #commendation-p {
   text-align: center;
 }
