@@ -1,5 +1,6 @@
 body {
   background-image: url('http://data.hdwallpapers.im/coding_source_code_hd.jpg');
+  /*height: 100%;*/
 }
 
 header {
@@ -115,10 +116,15 @@ article p {
 }
 
 .projects-section {
-  width: 15%;
+  width: 28%;
+  padding: 2%;
   display: inline-block;
-  background-color: #FF0000;
+  background-color: #6f84f0;
   text-align: center;
+}
+
+.projects-link {
+  color: black;
 }
 
 #commendation-p {
