@@ -33,10 +33,15 @@ h1 {
   font-size: 400%;
   white-space: nowrap;
 }
-h2 {
+
+#title {
   margin-left: 50%;
   margin-right: 50%;
   white-space: nowrap;
+}
+h2 {
+  white-space: nowrap;
+  text-align: center;
 }
 nav {
   margin-left: 40%;
