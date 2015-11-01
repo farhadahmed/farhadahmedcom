@@ -1,0 +1,69 @@
+header {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  padding: 1%;
+  display: block;
+
+}
+
+/* PROFILE PICTURE */
+
+#profile-pic-sect {
+  display: inline;
+}
+#profile-pic {
+  width: 20%;
+}
+
+/* HEADER */
+
+#header-wrapper {
+  text-align: center;
+  display: inline-block;
+}
+
+h1 {
+  margin-left: 25%;
+  font-size: 400%;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#title {
+  margin-left: 50%;
+  margin-right: 50%;
+  white-space: nowrap;
+}
+h2 {
+  white-space: nowrap;
+  text-align: center;
+}
+nav {
+  margin-left: 40%;
+  white-space: nowrap;
+}
+
+#nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-links {
+
+  border: 0.2em solid black;
+  border-radius: 15%;
+  padding: 0.5em;
+  display: inline-block;
+  top: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  color: #cc0000;
+  font-weight: bold;
+}
