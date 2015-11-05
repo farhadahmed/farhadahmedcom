@@ -4,54 +4,54 @@ header {
   background-color: white;
   padding: 1%;
   display: block;
-
+  text-align: center;
 }
 
-/* PROFILE PICTURE */
-
-#profile-pic-sect {
+.header-section {
   display: inline;
 }
-#profile-pic {
-  width: 20%;
-}
 
-/* HEADER */
-
-#header-wrapper {
+#title-navs {
   text-align: center;
   display: inline-block;
 }
 
-h1 {
-  margin-left: 25%;
-  font-size: 400%;
-  white-space: nowrap;
-  text-align: center;
+/* PROFILE PICTURE */
+
+
+#profile-pic {
+  width: 50%;
 }
+
+#profile-pic-sect {
+  float: left;
+}
+
+
 
 #title {
-  margin-left: 50%;
-  margin-right: 50%;
-  white-space: nowrap;
-}
-h2 {
-  white-space: nowrap;
-  text-align: center;
-}
-nav {
-  margin-left: 40%;
+  font-size: 400%;
   white-space: nowrap;
 }
 
-#nav-items {
+#occupation {
+  white-space: nowrap;
+}
+
+
+
+
+/*nav {
+  white-space: nowrap;
+}*/
+
+/*#nav-items {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
+}*/
 
 .page-links {
-
   border: 0.2em solid black;
   border-radius: 15%;
   padding: 0.5em;
@@ -64,6 +64,31 @@ a {
   color: blue;
 }
 a:hover {
-  color: #cc0000;
   font-weight: bold;
+}
+
+
+
+
+/* HEADER */
+
+/* LINKEDIN & GITHUB PICS */
+/*
+#contact-pics {
+  display: inline;
+  float: right;
+  margin-top: -15%;
+  width: 50%
+
+}
+#contact-pics img {
+  display: inline-block;
+}
+#linkedin-pic {
+  width: 30%;
+  float: right;
+}
+#github-pic {
+  width: 30%;
+  float: right;
 }

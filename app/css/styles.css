@@ -1,29 +1,13 @@
 body {
   background-image: url('http://data.hdwallpapers.im/coding_source_code_hd.jpg');
+  background-color: blue;
   /*height: 100%;*/
 }
 
-
-/* LINKEDIN & GITHUB PICS */
-
-#contact-pics {
-  display: inline;
-  float: right;
-  margin-top: -15%;
-  width: 50%
-
-}
-#contact-pics img {
-  display: inline-block;
-}
-#linkedin-pic {
-  width: 30%;
-  float: right;
-}
-#github-pic {
-  width: 30%;
-  float: right;
-}
+/*h2 {
+  white-space: nowrap;
+  text-align: center;
+}*/
 
 
 main {
@@ -74,3 +58,5 @@ li {
 #commendation-pic {
   width: 80%;
 }
+
+*/
