@@ -1,34 +1,24 @@
 header {
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 90%;
+  margin-left: 4.5%;
+  margin-right: 5.5%;
   background-color: white;
-  padding: 1%;
+  /*padding: 1%;*/
   display: block;
   text-align: center;
 }
-
 .header-section {
-  display: inline;
+  /*display: inline;*/
 }
 
-#title-navs {
+/* TITLE SECTION */
+#title-navs-sect {
+  width: 50%;
+  height: 100%;
   text-align: center;
   display: inline-block;
+  background-color: orange;
 }
-
-/* PROFILE PICTURE */
-
-
-#profile-pic {
-  width: 50%;
-}
-
-#profile-pic-sect {
-  float: left;
-}
-
-
-
 #title {
   font-size: 400%;
   white-space: nowrap;
@@ -37,10 +27,20 @@ header {
 #occupation {
   white-space: nowrap;
 }
-
-
-
-
+.page-links {
+  border: 0.2em solid black;
+  border-radius: 15%;
+  padding: 0.5em;
+  display: inline-block;
+  top: 50%;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  font-weight: bold;
+}
 /*nav {
   white-space: nowrap;
 }*/
@@ -51,36 +51,37 @@ header {
   padding: 0;
 }*/
 
-.page-links {
-  border: 0.2em solid black;
-  border-radius: 15%;
-  padding: 0.5em;
-  display: inline-block;
-  top: 50%;
+/* PROFILE PICTURE */
+#profile-pic-sect {
+  width: 20%;
+  float: left;
+  background-color: blue;
 }
 
-a {
-  text-decoration: none;
-  color: blue;
-}
-a:hover {
-  font-weight: bold;
+#profile-pic {
+  width: 50%;
 }
 
 
-
-
-/* HEADER */
-
-/* LINKEDIN & GITHUB PICS */
-/*
-#contact-pics {
+/*CONTACT PICS*/
+#contact-pics-sect {
+  background-color: red;
+  width: 20%;
+  height: 100%;
   display: inline;
   float: right;
-  margin-top: -15%;
-  width: 50%
 
 }
+
+#temp {
+  height: 10px;
+  width: 10px;
+}
+
+
+
+
+/*
 #contact-pics img {
   display: inline-block;
 }
@@ -92,3 +93,5 @@ a:hover {
   width: 30%;
   float: right;
 }
+
+/*
