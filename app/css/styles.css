@@ -1,13 +1,12 @@
 body {
   background-image: url('http://data.hdwallpapers.im/coding_source_code_hd.jpg');
   background-color: blue;
-  /*height: 100%;*/
 }
 
-/*h2 {
+h2 {
   white-space: nowrap;
   text-align: center;
-}*/
+}
 
 
 main {
@@ -58,5 +57,3 @@ li {
 #commendation-pic {
   width: 80%;
 }
-
-*/

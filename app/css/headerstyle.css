@@ -1,97 +1,64 @@
 header {
-  width: 90%;
-  margin-left: 4.5%;
-  margin-right: 5.5%;
   background-color: white;
-  /*padding: 1%;*/
-  display: block;
+  width: 80%;
+  margin-left: 10%;
   text-align: center;
-}
-.header-section {
-  /*display: inline;*/
 }
 
-/* TITLE SECTION */
-#title-navs-sect {
-  width: 50%;
-  height: 100%;
-  text-align: center;
+.header-sect {
   display: inline-block;
-  background-color: orange;
-}
-#title {
-  font-size: 400%;
-  white-space: nowrap;
 }
 
-#occupation {
-  white-space: nowrap;
+#profile-pic-sect {
+  height: 15em;
+  width: 30%;
+  float: left;
+}
+#profile-pic {
+  height: 14em;
+  margin-top: 2.5%;
+}
+
+#title-sect {
+  height: 15em;
+  width: 37%;
+  text-align: center;
+}
+#title-name {
+  font-size: 300%;
+  margin-bottom: 0%;
+}
+#title-occupation {
+  font-size: 150%;
+  margin-top: 0%;
+}
+#header-nav {
+  width: 100%;
 }
 .page-links {
+  display: inline-block;
   border: 0.2em solid black;
   border-radius: 15%;
-  padding: 0.5em;
-  display: inline-block;
-  top: 50%;
+  padding: 1%;
 }
-a {
+.page-links a {
   text-decoration: none;
-  color: blue;
 }
-a:hover {
-  font-weight: bold;
-}
-/*nav {
-  white-space: nowrap;
-}*/
-
-/*#nav-items {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}*/
-
-/* PROFILE PICTURE */
-#profile-pic-sect {
-  width: 20%;
-  float: left;
-  background-color: blue;
+.page-links a:hover {
+  color: red;
 }
 
-#profile-pic {
-  width: 50%;
-}
-
-
-/*CONTACT PICS*/
 #contact-pics-sect {
-  background-color: red;
-  width: 20%;
-  height: 100%;
-  display: inline;
-  float: right;
-
-}
-
-#temp {
-  height: 10px;
-  width: 10px;
-}
-
-
-
-
-/*
-#contact-pics img {
-  display: inline-block;
-}
-#linkedin-pic {
+  height: 15em;
   width: 30%;
   float: right;
+  margin-right: 2%;
 }
-#github-pic {
-  width: 30%;
-  float: right;
+#github {
+  width: 8em;
+  margin-top: 12%;
 }
-
-/*
+#linkedin {
+  width: 8em;
+  margin-top: 16%;
+}
