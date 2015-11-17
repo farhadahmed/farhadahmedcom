@@ -58,7 +58,13 @@ header {
   width: 43%;
   margin-top: 12%;
 }
+#github-a {
+  vertical-align: middle;
+}
 #linkedin {
   width: 43%;
   margin-top: 16%;
+}
+#linkedin-a {
+  vertical-align: middle;
 }
