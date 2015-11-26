@@ -53,6 +53,7 @@ header {
   width: 30%;
   float: right;
   margin-right: 2%;
+  vertical-align: middle;
 }
 #github {
   width: 43%;
@@ -60,6 +61,7 @@ header {
 }
 #github-a {
   vertical-align: middle;
+  margin-top: 10000%;
 }
 #linkedin {
   width: 43%;
@@ -67,4 +69,5 @@ header {
 }
 #linkedin-a {
   vertical-align: middle;
+  margin-top: 10000%;
 }
