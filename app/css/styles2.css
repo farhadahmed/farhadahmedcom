@@ -1,0 +1,10 @@
+#header-main-sect {
+  background-color: yellow;
+  text-align: center;
+}
+.page-links {
+  display: inline-block;
+/*  border: 0.2em solid black;
+  border-radius: 15%;
+  padding: 1%;*/
+}
