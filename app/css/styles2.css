@@ -1,10 +1,22 @@
-#header-main-sect {
-  background-color: yellow;
-  text-align: center;
+#main-header {
+  display: block;
 }
-.page-links {
+
+#title {
   display: inline-block;
-/*  border: 0.2em solid black;
-  border-radius: 15%;
-  padding: 1%;*/
+  margin-left: 4em;
+}
+nav {
+  display: inline-block;
+  margin-right: -4em;
+}
+
+/*This affects the list items in the nav bar but not the links themselves*/
+.page-link-li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.page-link-a {
+  text-decoration: none;
 }
