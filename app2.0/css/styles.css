@@ -5,6 +5,7 @@
 #title {
   display: inline-block;
   margin-left: 4em;
+  margin-right: 3em;
 }
 nav {
   display: inline-block;
@@ -14,9 +15,10 @@ nav {
 /*This affects the list items in the nav bar but not the links themselves*/
 .page-link-li {
   display: inline-block;
-  margin-left: 1em;
+  margin-left: 6em;
 }
 
 .page-link-a {
   text-decoration: none;
+  font-size: 1.3em;
 }
