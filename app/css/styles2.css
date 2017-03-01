@@ -19,7 +19,18 @@ body {
   height:100%;
 }
 
-#about-me-article {
+.index-article {
   background-color: white;
   text-align: center;
+}
+
+h1 {
+  padding-top: 0.8em;
+}
+
+p {
+  font-size: 1.5em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-bottom: 0.8em;
 }
