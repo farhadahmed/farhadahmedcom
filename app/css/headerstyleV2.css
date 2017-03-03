@@ -1,15 +1,15 @@
-#main-header {
+#index-main-header {
   display: block;
   background-color: white;
 }
 
-#title {
+#index-header-title {
   display: inline-block;
   text-align: center;
   height: 50%;
   width: 25%;
 }
-nav {
+#index-header-nav {
   display: inline-block;
   padding-bottom: 1em;
   text-align: center;
@@ -17,18 +17,18 @@ nav {
 }
 
 /*This affects the list items in the nav bar but not the links themselves*/
-.page-link-li {
+.index-header-page-link-li {
   display: inline-block;
   padding-left: 2%;
   padding-right: 2%;
 }
 
-.page-link-a {
+.index-header-page-link-a {
   text-decoration: none;
   font-size: 1.3em;
 }
 
-section {
+#header-section {
   display: inline-block;
   padding-bottom: 1em;
   text-align: center;
