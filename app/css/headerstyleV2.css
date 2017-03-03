@@ -28,14 +28,14 @@
   font-size: 1.3em;
 }
 
-#header-section {
+#index-header-section {
   display: inline-block;
   padding-bottom: 1em;
   text-align: center;
   width: 25%;
 }
 
-.social-media-images {
+.index-header-social-media-images {
   height: 2.5em;
   width: 2.5em;
   transform: translateY(25%);
