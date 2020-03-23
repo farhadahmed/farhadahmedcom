@@ -1,83 +1,461 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Farhad Ahmed</title>
-  <link rel="stylesheet" type="text/css" href="css/headerstyleV2.css">
-  <link rel="stylesheet" type="text/css" href="css/styles2.css">
+
+<title>Farhad Ahmed</title>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="css/tooplate-style.css">
+
+<link rel="stylesheet" type="text/css" href="css/skills.css">
+
 </head>
-
 <body>
-  <header id="index-main-header">
-      <h1 id="index-header-title" style="font-size:1.5em">Farhad Ahmed</h1>
-      <nav id="index-header-nav">
-        <li class="index-header-page-link-li"><a href="#about" class="index-header-page-link-a">About</a></li>
-        <li class="index-header-page-link-li"><a href="#skills" class="index-header-page-link-a">Skills</a></li>
-        <li class="index-header-page-link-li"><a href="#projects" class="index-header-page-link-a">Projects</a></li>
-        <li class="index-header-page-link-li"><a href="#experience" class="index-header-page-link-a">Experience</a></li>
-      </nav>
-      <section id="index-header-section">
-        <a href="https://www.linkedin.com/in/farhadahmed"><img class="index-header-social-media-images" src="imagesV2/linkedinimg.png"></a>
-        <a href="http://github.com/farhadahmed"><img class="index-header-social-media-images" src="imagesV2/githubimg.png"></a>
-      </section>
-  </header>
 
-  <div id="container"><iframe id='iframe' src="https://media.flixel.com/cinemagraph/85jovmdqcggxjqobe17t?hd=false&forceGif=false" frameborder="0" allowfullscreen></iframe></div>
+<!-- PRE LOADER -->
+<div class="preloader">
+     <div class="spinner">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
 
-  <article class="index-article" name="about">
-    <a name="about"></a>
-    <h1>Farhad Ahmed</h1>
-    <h3>Integrations Lead at Apex Learning | Software Development Instructor at Skillspire</h3>
-    <p>I am a skilled programmer experienced in full-stack software development, managing backlogs to prioritize dev work, and teaching JavaScript to students from elementry school to graduate students. Currently, I manage the systems integrations at Apex Learning, a company that creates a web-based curriculum for middle schools and high schools while spending my weekends teaching programming to low-income families.</p>
-  </article>
 
-  <article class="index-article" name="skills">
-    <a name="skills"></a>
-    <h1>Skills</h1>
-    <table id="skill-table">
-      <tr>
-        <td class="skill-table-data">Full-Stack Development</td>
-        <td class="skill-table-data">JavaScript</td>
-        <td class="skill-table-data">Test Driven Development</td>
-        <td class="skill-table-data">REST APIs</td>
-      </tr>
-      <tr>
-        <td class="skill-table-data">HTML</td>
-        <td class="skill-table-data">CSS</td>
-        <td class="skill-table-data">jQuery</td>
-        <td class="skill-table-data">Angular.js</td>
-      </tr>
-      <tr>
-        <td class="skill-table-data">GitHub</td>
-        <td class="skill-table-data">Git</td>
-        <td class="skill-table-data">Node.js</td>
-        <td class="skill-table-data">Heroku</td>
-      </tr>
-      <tr>
-        <td class="skill-table-data">Express.js</td>
-        <td class="skill-table-data">Mocha.js</td>
-        <td class="skill-table-data">Chai.js</td>
-        <td class="skill-table-data">MongoDB</td>
-      </tr>
-      <tr>
-        <td class="skill-table-data">Learning Tools Interoperability</td>
-        <td class="skill-table-data">SAML2.0</td>
-        <td class="skill-table-data">OAuth2.0</td>
-        <td class="skill-table-data">Scrum</td>
-      </tr>
-      <tr>
-        <td class="skill-table-data">Lodash.js</td>
-        <td class="skill-table-data">SQL</td>
-        <td class="skill-table-data">Python</td>
-        <td class="skill-table-data">C#</td>
-      </tr>
-      <tr>
-        <td class="skill-table-data">Visual Studio</td>
-      </tr>
-    </table>
-  </article>
+<!-- MENU -->
+<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+     <div class="container">
+
+          <!-- NAVBAR HEADER -->
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <!-- lOGO -->
+               <a href="index.html" class="navbar-brand">Farhad Ahmed</a>
+          </div>
+
+          <!-- MENU LINKS -->
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="smoothScroll">Home</a></li>
+                    <li><a href="#about" class="smoothScroll">Experience</a></li>
+                    <li><a href="#team" class="smoothScroll">Skills</a></li>  
+                    <li><a href="#contact" class="smoothScroll">Let's talk</a></li>
+               </ul>
+               <ul class="social-icon">
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+               </ul>
+          </div>
+
+     </div>
+</div>
+
+
+<!-- HOME -->
+<section id="home" class="parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-8 col-sm-12">
+                    <div class="home-text">
+                         <h1>Farhad Ahmed</h1>
+                         <p>Software Engineer</p>
+                         <ul class="section-btn">
+                              <a href="#about" class="smoothScroll"><span data-hover="About me">Learn More</span></a>
+                         </ul>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+
+     <!-- Video -->
+     <video controls autoplay loop muted>
+          <source src="videos/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+     </video>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="about-info">
+                         <h3>Experience</h3>
+                         <h4>I've been a software engineer since 2016. My path began when I was a claims processor making less than $25K a year; not enough a person to live on, and I was about to get married. </h4>
+
+                         <h4>I saved enough to pay my bills and take some courses, I quit my job, and dedicated two years to doing nothing but studying programming. I threw out my Xbox, told my friends they won't see me for a year, and when my brother-in-law was married, I didn't attend his wedding. Because for those two years, from the time I woke up to time I slept, I was coding. My meals were all eaten with one hand on my fork and the other on my keyboard. I'd fall asleep trying to solve algorithms with my eyes closed. I developed code until I'd see it in my dreams. </h4>
+
+                         <h4>I have maintained this motivation throughout my career. At Apex Learning I shortened their deployment time for API credentials from one week to one hour. At Comcast I built the web app that Roku uses to translate their .csv files an XML file that Comcast uses to ingest and publish media to their platform. At Skillspire I created the curriculum they now use for all Full-Stack JavaScript courses. At Sterling I built and maintained the entire integration experience for our client's developers.</h4>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- PROJECT -->
+<section id="project" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-6">
+                    <!-- PROJECT ITEM -->
+                    <div class="project-item">
+                         <a href="images/deadpool1.jpg" class="image-popup">
+                              <img src="images/deadpool1.jpg" class="img-responsive" alt="">
+                         
+                              <div class="project-overlay">
+                                   <div class="project-info">
+                                        <h1>Just</h1>
+                                        <!-- <h3>Click to pop up!</h3> -->
+                                   </div>
+                              </div>
+                         </a>
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <!-- PROJECT ITEM -->
+                    <div class="project-item">
+                         <a href="images/deadpool2.jpg" class="image-popup">
+                              <img src="images/deadpool2.jpg" class="img-responsive" alt="">
+                         
+                              <div class="project-overlay">
+                                   <div class="project-info">
+                                        <h1>some</h1>
+                                        <!-- <h3>Sed ligula accumsan</h3> -->
+                                   </div>
+                              </div>
+                         </a>
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <!-- PROJECT ITEM -->
+                    <div class="project-item">
+                         <a href="images/deadpool4.jpg" class="image-popup">
+                              <img src="images/deadpool4.jpg" class="img-responsive" alt="">
+                         
+                              <div class="project-overlay">
+                                   <div class="project-info">
+                                        <h1>random pictures</h1>
+                                        <!-- <h3>Nam feugiat dui in nisi</h3> -->
+                                   </div>
+                              </div>
+                         </a>
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <!-- PROJECT ITEM -->
+                    <div class="project-item">
+                         <a href="images/deadpool5.jpeg" class="image-popup">
+                              <img src="images/deadpool5.jpeg" class="img-responsive" alt="">
+                         
+                              <div class="project-overlay">
+                                   <div class="project-info">
+                                        <h1>of Deadpool</h1>
+                                        <!-- <h3>Mollis aliquam faucibus urna</h3> -->
+                                   </div>
+                              </div>
+                         </a>
+                    </div>
+               </div>               
+
+          </div>
+     </div>
+</section>
+
+
+<!-- Skills -->
+<section id="team" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-2 col-md-8 col-sm-12">
+                    <!-- SECTION TITLE -->
+                    <div class="section-title">
+                         <h1>Skills</h1>
+                    </div>
+               </div>
+
+               <div class="clearfix"></div>
+
+
+               <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style="background: #27ae60;"><span>JavaScript</span></div>
+                    <div class="skillbar-bar" style="background: #2ecc71;"></div>
+                    <div class="skill-bar-percent">100%</div>
+               </div> <!-- End Skill Bar -->
+
+               <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                    <div class="skill-bar-percent">100%</div>
+               </div> <!-- End Skill Bar -->
+               
+               <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+                    <div class="skillbar-bar" style="background: #3498db;"></div>
+                    <div class="skill-bar-percent">90%</div>
+               </div> <!-- End Skill Bar -->
+               
+               <div class="skillbar clearfix " data-percent="100%">
+                    <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+                    <div class="skillbar-bar" style="background: #2c3e50;"></div>
+                    <div class="skill-bar-percent">100%</div>
+               </div> <!-- End Skill Bar -->
+               
+               <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #46465e;"><span>Java</span></div>
+                    <div class="skillbar-bar" style="background: #5a68a5;"></div>
+                    <div class="skill-bar-percent">90%</div>
+               </div> <!-- End Skill Bar -->
+               
+               <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #333333;"><span>NodeJS</span></div>
+                    <div class="skillbar-bar" style="background: #525252;"></div>
+                    <div class="skill-bar-percent">80%</div>
+               </div> <!-- End Skill Bar -->
+               
+               <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #124e8c;"><span>REST APIs</span></div>
+                    <div class="skillbar-bar" style="background: #4288d0;"></div>
+                    <div class="skill-bar-percent">90%</div>
+               </div> <!-- End Skill Bar -->
+
+               <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #27ae60;"><span>MongoDB</span></div>
+                    <div class="skillbar-bar" style="background: #2ecc71;"></div>
+                    <div class="skill-bar-percent">90%</div>
+               </div> <!-- End Skill Bar -->
+
+               <div class="skillbar clearfix " data-percent="50%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>SpringBoot</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                    <div class="skill-bar-percent">50%</div>
+               </div> <!-- End Skill Bar -->
+
+               <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title" style="background: #2980b9;"><span>Angular</span></div>
+                    <div class="skillbar-bar" style="background: #3498db;"></div>
+                    <div class="skill-bar-percent">90%</div>
+               </div> <!-- End Skill Bar -->
+
+
+<!--                <div id="owl-team" class="owl-carousel">
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/team-image1.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>Catherine Jann</p>
+                         <h3>Head Designer</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/team-image2.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-instagram"></a></li>
+                                        <li><a href="#" class="fa fa-github"></a></li>
+                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>Luke Wara</p>
+                         <h3>Speciality Focus</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/team-image3.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-instagram"></a></li>
+                                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                                        <li><a href="#" class="fa fa-behance"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>Mono Mana</p>
+                         <h3>Art director</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/team-image4.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                        <li><a href="#" class="fa fa-envelope-o"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>Phway Phyu</p>
+                         <h3>Designer in Chief</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 item">
+                         <div class="team-item">
+                              <img src="images/team-image1.jpg" class="img-responsive" alt="">
+                              <div class="team-overlay">
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <p>Cherry Lynn</p>
+                         <h3>Marketing Manager</h3>
+                    </div>
+               </div> -->
+
+          </div>
+     </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-3 col-md-6 col-sm-12">
+                    <div class="section-title">
+                         <h1>If you have an opportunity or are interested in learning how to code:</h1>
+                    </div>
+               </div>
+
+               <div class="clearfix"></div>
+
+               <div class="col-md-offset-2 col-md-8 col-sm-12">
+                    <!-- CONTACT FORM HERE -->
+                    <form id="contact-form" action="#" method="get" role="form">
+
+                         <!-- IF MAIL SENT SUCCESSFULLY -->
+                         <h6 class="text-success">Your message has been sent successfully. </h6>
+                         
+                         <!-- IF MAIL SENDING UNSUCCESSFULL -->
+                         <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
+
+                         <div class="col-md-6 col-sm-6">
+                              <input type="text" class="form-control" id="cf-name" name="cf-name" placeholder="Name">
+                         </div>
+
+                         <div class="col-md-6 col-sm-6">
+                              <input type="email" class="form-control" id="cf-email" name="cf-email" placeholder="Email Address">
+                         </div>
+
+                         <div class="col-md-12 col-sm-12">
+                              <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Subject">
+                              <textarea class="form-control" rows="5" id="cf-message" name="cf-message" placeholder="Message"></textarea>
+                         </div>
+
+                         <div class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4">
+                              <div class="section-btn">
+                                   <button type="submit" class="form-control" id="cf-submit" name="submit"><span data-hover="To Me">Send Message</span></button>
+                              </div>
+                         </div>
+                    </form>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-5 col-sm-6">
+                    <!-- <h2>Digital Studio</h2>
+                    <p>321 Donec et justo id risus, Malesuada pharetra,<br> Tristique vestibulum,<br> Lorem ipsum dolor</p> -->
+                    
+                    
+               </div>
+
+               <div class="col-md-4 col-sm-6">
+                    <div class="footer-info">
+                    	<h2>Keep in touch</h2>
+                         <p><a href="tel:425-279-3970">425-279-3970</a></p>
+                         <p><a href="mailto:farhadahmed2007@gmail.com">farhadahmed2007@gmail.com</a></p>
+                         <ul class="social-icon">
+                         <li><a href="#" class="fa fa-twitter"></a></li>
+                         <li><a href="#" class="fa fa-facebook"></a></li>
+                         <li><a href="#" class="fa fa-instagram"></a></li>
+                         <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul>
+                         <!-- <p><a href="#">Our Location</a></p> -->
+                    </div>
+               </div>
+
+               <div class="col-md-3 col-sm-12">
+                    <!-- <h2>About Us</h2>
+                    <p>Sed vestibulum posuere ante, eget blandit metus. Morbi sodales feugiat erat, et placerat sapien suscipit ut.</p>
+                    <ul class="social-icon">
+                         <li><a href="#" class="fa fa-twitter"></a></li>
+                         <li><a href="#" class="fa fa-facebook"></a></li>
+                         <li><a href="#" class="fa fa-instagram"></a></li>
+                         <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul> -->
+               </div>
+
+               <div class="clearfix"></div>
+
+               <div class="col-md-12 col-sm-12">
+                    <div class="copyright-text">
+                         <p>Copyright © 2020 Farhad Ahmed</p>
+                    </div>
+               </div>
+               
+          </div>
+     </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/animated-skills.js"></script>
 
 </body>
-
 </html>
